@@ -20,8 +20,10 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter")
+    implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.apache.kafka:kafka-clients:3.7.0")
+    implementation("org.springframework.kafka:spring-kafka:3.2.3")
     implementation("io.github.microutils:kotlin-logging:3.0.5")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
